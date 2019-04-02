@@ -1,0 +1,43 @@
+img {
+   height: 200px;
+   width: 200px;
+   
+}
+
+.thecart { 
+    display: block;
+   
+}
+.list {
+
+}
+.thecategories{
+    display:flex;
+    justify-content: space-around;
+    background:teal;
+    
+}
+
+.item {
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+
+}
+
+.item * {
+    flex-basis: 33%;
+}
+
+.inputz {
+    display:flex;
+    justify-content: space-around;
+}
+
+.buttons {
+    display:flex;
+    justify-content:center;
+}
+
+
